@@ -1,0 +1,870 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+    padding: 10px;
+    color: #b16a16;
+}
+
+h2 {
+    font-size: 170%;
+    text-align: center;
+    padding: 0 10px;
+    color: #8d8d8d;
+}
+
+
+.whatsapp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: right;
+    padding: 5px 20px 10px 5px;
+}
+
+.whatsapp a {
+    display: flex;
+    justify-content: right;
+}
+
+/*Header*/
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.container-fluid {
+    margin: 0 20px;
+}
+
+.poppins-css {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.poppins-css .navbar-brand {
+    font-size: 25px;
+}
+
+/* header end*/
+
+/* Footer*/
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #003870;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer p {
+    padding: 12px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.footer-img {
+    width: 3%;
+    margin: 0;
+}
+
+/* Footer end*/
+
+/*home*/
+.banner-img {
+    position: absolute;
+}
+
+.banner-hero {
+    width: 100%;
+    height: 600px;
+    background-image: url('img/Fondo-Home-7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 64px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.banner-img-logo {
+    width: 160px;
+}
+
+/*home end*/
+
+/*Nosotros*/
+.nosotros-hero {
+    margin-top: 64px;
+    width: 100%;
+    height: 600px;
+    background-image: url('img/Fondo_Nosotros-v6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #B16A16;
+}
+
+.nosotros-container {
+    align-items: center;
+    padding: 3% 20% 0 20%;
+}
+
+.nosotros-item1 {
+    width: 100%;
+    height: 70px;
+    font-size: 2em;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(87, 87, 87, 0.411);
+    color: rgb(255, 255, 255);
+
+}
+
+.nosotros-item2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(87, 87, 87, 0.411);
+}
+
+.nosotros-item2 {
+    /*border: 3px solid rgb(0, 113, 226);*/
+    border-radius: 30px;
+}
+
+
+.nosotros-item3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nosotros-img {
+    width: 40%;
+}
+
+.skills {
+    background-color: rgb(13, 110, 253);
+    width: 100%;
+    height: 600px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 50px;
+}
+
+
+.skills-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.skills-item img {
+    width: 70%;
+    padding: 10px;
+}
+
+/* Fin Nosotros*/
+
+/* Servicios */
+.servicios {
+    margin-top: 64px;
+    width: 100%;
+    height: 900px;
+    background-image: url('img/servicios-v3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 113, 226);
+}
+
+.servicios-container {
+    margin-top: 60px;
+}
+
+.servicios-item1 {
+    width: 100%;
+    height: 70px;
+    font-size: 2em;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(87, 87, 87, 0.411);
+    color: rgb(255, 255, 255);
+}
+
+.row div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(87, 87, 87, 0.411);
+    padding: 20px 20px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    /*border: 2px solid rgb(255, 255, 255);*/
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*  fin Servicios */
+
+/* Contacto */
+.contacto {
+    margin-top: 64px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 113, 226);
+    background-image: url(img/Fondo_Nosotros-v4B.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contacto-item1 {
+    width: 100%;
+    height: 70px;
+    font-size: 2em;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: rgba(87, 87, 87, 0.411);
+    color: rgb(255, 255, 255);
+}
+
+.contacto-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+}
+
+.img-logo {
+    width: 20%;
+}
+
+.contacto-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgba(87, 87, 87, 0.651);
+}
+
+.contacto-container div {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-container div a {
+    padding-top: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contact-img {
+    width: 20%;
+}
+
+/* Formulario */
+.formulario {
+    color: hsl(213, 100%, 94%);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-title {
+    width: 50%;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    color: rgb(0, 113, 226);
+}
+
+.formulario-title h6 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.speaker-form {
+    background-color: rgb(0, 113, 226);
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0 60px 0;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    border: 1px solid red;
+    color: red;
+    box-shadow: none;
+    /* remover el default*/
+}
+
+.legacy-form-row {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.legacy-form-row legend {
+    margin-bottom: 15px;
+}
+
+.legacy-form-row .radio-label {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px 0 0px;
+}
+
+.legacy-form-row input[type="radio"] {
+    margin-top: 2px;
+}
+
+.form-row select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.form-row textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.form-row .description {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: rgb(177, 216, 255);
+}
+
+.form-row button:active {
+    background-color: rgb(0, 113, 226);
+}
+/*Fin Formulario*/
+
+/*Mobile Landscape*/
+@media only screen and (max-height: 480px) {
+
+    /*Home*/
+    .banner-hero {
+        width: 100%;
+        height: 400px !important;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-hero div {
+        display: flex;
+        padding: 50px 0px;
+    }
+
+    h1 {
+        font-size: 300% !important;
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    h2 {
+        font-size: 120% !important;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h1,
+    h2 {
+        padding: 0 !important;
+    }
+
+    .banner-img-logo {
+        width: 100px !important;
+    }
+
+
+}
+
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+
+    /*Home*/
+    .banner-hero {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        background-image: url('img/Fondo-Home-7.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+    .banner-hero div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0px;
+    }
+
+    h1 {
+        font-size: 300%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 130%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    /*Nosotros*/
+    .nosotros-hero {
+        margin-top: 64px;
+        width: 100%;
+        height: 600px;
+        background-image: url('img/Fondo_Nosotros-v6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 113, 226);
+    }
+
+    .nosotros-container {
+        align-items: center;
+        padding: 3% 10% 0 10%;
+    }
+
+    .nosotros-item2 {
+        color: rgb(255, 255, 255);
+        font-size: 1.2em;
+        line-height: 1.5;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(87, 87, 87, 0.411);
+    }
+
+    .nosotros-item3 {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .nosotros-img {
+        width: 60%;
+    }
+
+    .skills {
+        background-color: rgb(13, 110, 253);
+        width: 100%;
+        height: 800px;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    /*Servicios*/
+    .servicios {
+        margin-top: 64px;
+        width: 100%;
+        height: 800px;
+        background-image: url('img/servicios-v3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 113, 226);
+    }
+
+    .servicios-container {
+        margin-top: 50px;
+
+    }
+
+    .row div {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+        background-color: rgba(87, 87, 87, 0.411);
+        padding: 5px 1px;
+        margin: 15px;
+        text-align: center;
+        border-radius: 10px;
+        /*border: 1px solid rgb(255, 255, 255);*/
+        width: 80%;
+    }
+
+    /*Contacto*/
+    .contacto-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 30px 10px 30px;
+    }
+
+    .contacto-logo {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .contacto-container div {
+        text-align: center;
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .img-logo {
+        width: 40%;
+    }
+
+    .contact-img {
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 13%;
+    }
+
+    /*Footer*/
+    .footer-img {
+        width: 10%;
+        margin: 0;
+    }
+}
+
+/*Tablets & Mobile*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    /*Home*/
+    .banner-hero {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        background-image: url('img/Fondo-Home-7.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+    h1 {
+        font-size: 320%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 150%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*Nosotros*/
+    .skills-item img {
+        width: 90%;
+        padding: 10px;
+    }
+
+    /*Servicios*/
+    .servicios {
+        margin-top: 64px;
+        width: 100%;
+        height: 1000px;
+        background-image: url('img/servicios-v3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 113, 226);
+    }
+
+    .servicios-container {
+        margin-top: 60px;
+    }
+
+    .row div {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+        background-color: rgba(87, 87, 87, 0.411);
+        padding: 10px 1px;
+        margin: 20px;
+        text-align: center;
+        border-radius: 10px;
+        /*border: 1px solid rgb(255, 255, 255);*/
+        width: 80%;
+    }
+
+    /*Contacto*/
+    .contacto-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 30px 10px 30px;
+    }
+
+    .contacto-logo {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .contacto-container div {
+        text-align: center;
+        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .img-logo {
+        width: 20%;
+    }
+
+    .contact-img {
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 8%;
+    }
+
+    /*Footer*/
+    .footer-img {
+        width: 5%;
+        margin: 0;
+    }
+}
+
+/*Tablets, Laptops & Desktop*/
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+
+    /*Home*/
+    .banner-hero {
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('img/Fondo-Home-7.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+    h1 {
+        font-size: 700%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banner-img-logo {
+        width: 300px;
+    }
+
+    /*Servicios*/
+    .servicios {
+        margin-top: 64px;
+        width: 100%;
+        height: 1200px;
+        background-image: url('img/servicios-v3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 113, 226);
+    }
+
+    .servicios-container {
+        margin-top: 60px;
+    }
+
+    .row div {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+        background-color: rgba(87, 87, 87, 0.411);
+        padding: 10px 1px;
+        margin: 30px;
+        text-align: center;
+        border-radius: 10px;
+        /*border: 1px solid rgb(255, 255, 255);*/
+        width: 80%;
+    }
+
+    /*Contacto*/
+    .contacto-container div {
+        text-align: center;
+        font-size: 0.9em;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .img-logo {
+        width: 20%;
+    }
+}
+
+/*Laptops & widescreen*/
+@media only screen and (min-width: 1280px) {
+
+    /*Home*/
+    .banner-hero {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('img/Fondo-Home-7.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 64px;
+    }
+
+    h1 {
+        font-size: 500%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 170%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    /*Servicios*/
+    .servicios {
+        margin-top: 64px;
+        width: 100%;
+        height: 900px;
+        background-image: url('img/servicios-v3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 113, 226);
+    }
+
+    .servicios-container {
+        margin-top: 60px;
+    }
+
+    /*Contacto*/
+    .contacto-container div {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto-container div a {
+        padding-top: 5px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .img-logo {
+        width: 20%;
+    }
+}
+/*Fin Contacto*/
